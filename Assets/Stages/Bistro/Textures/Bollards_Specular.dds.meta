@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Bollards_Specular.dds",
+  "Labels": [],
+  "Id": "cb23ea38-8c39-42b5-b30a-d31056c6f415"
+}

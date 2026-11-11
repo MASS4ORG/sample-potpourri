@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/MASTER_Concrete_BaseColor.dds",
+  "Labels": [],
+  "Id": "610fe466-0271-4c42-b363-a95efac1d11e"
+}

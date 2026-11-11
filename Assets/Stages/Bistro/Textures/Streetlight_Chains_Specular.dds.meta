@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Streetlight_Chains_Specular.dds",
+  "Labels": [],
+  "Id": "241c1046-49f8-48c7-8dd4-75194363a0e2"
+}

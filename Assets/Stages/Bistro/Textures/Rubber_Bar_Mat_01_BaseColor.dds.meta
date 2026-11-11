@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Rubber_Bar_Mat_01_BaseColor.dds",
+  "Labels": [],
+  "Id": "105ac7bc-52c5-4fa1-a376-284e30d95f26"
+}

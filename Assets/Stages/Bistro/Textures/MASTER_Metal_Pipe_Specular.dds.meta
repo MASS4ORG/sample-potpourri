@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/MASTER_Metal_Pipe_Specular.dds",
+  "Labels": [],
+  "Id": "21e9330e-ce8c-4663-a757-1a0816f4d3d1"
+}

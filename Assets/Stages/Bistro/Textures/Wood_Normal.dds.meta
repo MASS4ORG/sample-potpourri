@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": true,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Wood_Normal.dds",
+  "Labels": [],
+  "Id": "7c659d78-5ba4-46ad-b1dc-33e54136b185"
+}

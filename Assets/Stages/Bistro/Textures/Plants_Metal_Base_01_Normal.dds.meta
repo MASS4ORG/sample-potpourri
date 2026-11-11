@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": true,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Plants_Metal_Base_01_Normal.dds",
+  "Labels": [],
+  "Id": "2eafdae6-03df-4816-8f34-31755136440e"
+}

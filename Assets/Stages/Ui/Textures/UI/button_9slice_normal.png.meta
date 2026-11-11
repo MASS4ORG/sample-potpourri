@@ -1,0 +1,12 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": true,
+  "ImportSettings": {
+    "MaxResolution": 0,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Ui/Textures/UI/button_9slice_normal.png",
+  "Id": "d6d862e3-dc02-4f25-a638-0c4663a75df1"
+}

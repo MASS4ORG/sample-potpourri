@@ -1,0 +1,18 @@
+{
+  "__TypeId": "ebb1b487-2390-4a90-b798-3709d1932dd2",
+  "Gravity": {
+    "X": 0,
+    "Y": -9.81,
+    "Z": 0
+  },
+  "SolverIterations": 4,
+  "Substeps": 4,
+  "SimulationMode": 0,
+  "DefaultMaterial": null,
+  "QueriesHitTriggers": true,
+  "SleepThreshold": 0.1,
+  "Multithreaded": true,
+  "WorkerThreads": 0,
+  "Deterministic": false,
+  "Id": "d0d7ae77-d4d9-4b2a-852a-4644a499f47e"
+}

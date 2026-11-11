@@ -1,0 +1,42 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 24; gap: 6">
+    <Label class="title" text="Mixer" />
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="Master" /></VisualElement>
+        <Slider class="wide" name="bus-master" min="0" max="1" step="0.01" height="30" value="{asset://7c0e1c62-6dcc-449c-af32-7ae87ac4c50f, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://7c0e1c62-6dcc-449c-af32-7ae87ac4c50f | percent}" /></VisualElement>
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="Music" /></VisualElement>
+        <Slider class="wide" name="bus-music" min="0" max="1" step="0.01" height="30" value="{asset://8d4d54cf-92dc-5ae9-9457-99e43dd07cda, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://8d4d54cf-92dc-5ae9-9457-99e43dd07cda | percent}" /></VisualElement>
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="SFX" /></VisualElement>
+        <Slider class="wide" name="bus-sfx" min="0" max="1" step="0.01" height="30" value="{asset://bde752e4-7376-543c-8262-7f49a3e6ac80, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://bde752e4-7376-543c-8262-7f49a3e6ac80 | percent}" /></VisualElement>
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="Voice" /></VisualElement>
+        <Slider class="wide" name="bus-voice" min="0" max="1" step="0.01" height="30" value="{asset://d5216773-ec7b-5769-9165-d48da0113b4e, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://d5216773-ec7b-5769-9165-d48da0113b4e | percent}" /></VisualElement>
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="UI" /></VisualElement>
+        <Slider class="wide" name="bus-ui" min="0" max="1" step="0.01" height="30" value="{asset://eed0302a-77bd-5307-b2b4-1151d0fc9e1f, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://eed0302a-77bd-5307-b2b4-1151d0fc9e1f | percent}" /></VisualElement>
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 46">
+        <Button class="wide" style="height: 100%" name="mix-normal" text="Normal" click="asset://c2a00dd6-d45e-5407-b589-b9b10c6d910d" />
+        <Button class="wide" style="height: 100%" name="mix-underwater" text="Water" click="asset://5f42da14-24ff-5437-9ecd-87c37b383ed6" />
+        <Button class="wide" style="height: 100%" name="mix-pause" text="Pause" click="asset://848b1cc3-b6da-50f3-b203-d91b14b5aa54" />
+      </VisualElement>
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 46">
+        <Button class="wide" style="height: 100%" name="voice" text="Voice" click="asset://ffacc523-0e80-5cd8-90b5-5f483ea97ab5" />
+        <Button class="wide" style="height: 100%" name="sfx" text="SFX" click="asset://e4d36aed-e983-53fd-8e1c-ca5671b09c79" />
+        <Button class="wide" style="height: 100%" name="ui-click" text="Tick" click="asset://4a708d1e-902d-4932-9733-f40e33f54244" />
+        <Button class="wide" style="height: 100%" name="back" text="Back" click="asset://46b8f5c5-de54-4538-a480-4896927e23f9" />
+      </VisualElement>
+  </VisualElement>
+</UI>

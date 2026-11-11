@@ -1,0 +1,12 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 0,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Ui/Textures/UI/scrollbar_thumb_9slice.png",
+  "Id": "16d8b687-8a1e-49b6-b3b3-25ea12655c64"
+}

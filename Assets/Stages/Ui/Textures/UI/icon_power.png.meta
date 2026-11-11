@@ -1,0 +1,12 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 0,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Ui/Textures/UI/icon_power.png",
+  "Id": "70870690-5498-4670-bae2-15b0cc9ad32e"
+}

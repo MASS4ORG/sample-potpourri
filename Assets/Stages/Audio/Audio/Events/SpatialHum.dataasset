@@ -1,0 +1,20 @@
+{
+  "__TypeId": "bbf8bc67-0f8c-4613-a263-5f1ee7cb28f6",
+  "EventName": "spatial.hum",
+  "Clips": [
+    {
+      "AssetId": "db2607ed-5c92-4b90-b297-6395152129c9"
+    }
+  ],
+  "Volume": 0.5,
+  "Pitch": 1,
+  "Loop": true,
+  "Spatial": true,
+  "MinDistance": 1,
+  "MaxDistance": 20,
+  "Priority": 128,
+  "Stream": false,
+  "SchemaVersion": 1,
+  "Id": "18a39798-0ea2-4b83-a601-243d41aa90d0",
+  "Bus": "SFX"
+}

@@ -1,0 +1,37 @@
+{
+  "__TypeId": "3a5514c7-c592-41f7-8d1f-33cf663aafc1",
+  "EngineVersion": "3.11.0",
+  "BuildProfiles": [
+    {
+      "AssetId": "c47c2e8c-022d-42cf-bdab-bdbca29cd709"
+    }
+  ],
+  "ActiveBuildProfile": {
+    "AssetId": "c47c2e8c-022d-42cf-bdab-bdbca29cd709"
+  },
+  "Settings": [
+    {
+      "AssetId": "1f51d094-45da-4c57-8236-d0da84fedc85"
+    },
+    {
+      "AssetId": "454ae355-bc8a-4b38-87b2-c9ee23daa110"
+    },
+    {
+      "AssetId": "fdc2a9be-591f-4767-92d8-ace9d82f3362"
+    },
+    {
+      "AssetId": "78a7b956-4e4a-4a3a-af58-6d36a9825951"
+    },
+    {
+      "AssetId": "24396c50-483a-4c8d-ac59-6d8ea406d875"
+    },
+    {
+      "AssetId": "d0d7ae77-d4d9-4b2a-852a-4644a499f47e"
+    },
+    {
+      "AssetId": "6703b596-88a5-41de-a889-56af21575d55"
+    }
+  ],
+  "SchemaVersion": 1,
+  "Id": "12c025f4-04c2-4da7-8f51-a51ac87fd6b3"
+}

@@ -1,0 +1,332 @@
+{
+  "__TypeId": "f39695dd-31f0-49da-a601-4b7b742baf12",
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayers": [
+    {
+      "Id": "2549b8ac-5eea-c058-be42-88d01be080f8",
+      "Index": 0,
+      "Name": "Default"
+    },
+    {
+      "Id": "e5548216-d23b-1259-b1b3-e017fc5f4628",
+      "Index": 1,
+      "Name": "Layer 1"
+    },
+    {
+      "Id": "376e9cff-3940-2852-8f44-409cd91a2316",
+      "Index": 2,
+      "Name": "Layer 2"
+    },
+    {
+      "Id": "0c80c73f-053f-ff5a-9d49-ce87d8eb808b",
+      "Index": 3,
+      "Name": "Layer 3"
+    },
+    {
+      "Id": "482f6b95-8487-c35c-adc9-165972038dac",
+      "Index": 4,
+      "Name": "Layer 4"
+    },
+    {
+      "Id": "792e62ec-1840-c151-90e2-355300b70d80",
+      "Index": 5,
+      "Name": "Layer 5"
+    },
+    {
+      "Id": "1ef507d6-b052-dd55-bea7-73cfefa60b0f",
+      "Index": 6,
+      "Name": "Layer 6"
+    },
+    {
+      "Id": "2d285f7a-1a66-4559-a488-a5cab9578ca0",
+      "Index": 7,
+      "Name": "Layer 7"
+    },
+    {
+      "Id": "670568e6-45a8-7455-ab33-a30afcae0753",
+      "Index": 8,
+      "Name": "Layer 8"
+    },
+    {
+      "Id": "5538bd6d-6bd2-9257-a747-6b0c6777ef96",
+      "Index": 9,
+      "Name": "Layer 9"
+    },
+    {
+      "Id": "510410c1-cf3e-0a56-b356-e659aceade6f",
+      "Index": 10,
+      "Name": "Layer 10"
+    },
+    {
+      "Id": "75a2db0e-ec78-0c54-9d8f-04f5494a1bdc",
+      "Index": 11,
+      "Name": "Layer 11"
+    },
+    {
+      "Id": "25af41e0-d295-7d5a-abf0-db146db7073b",
+      "Index": 12,
+      "Name": "Layer 12"
+    },
+    {
+      "Id": "b874323c-0b36-9750-8478-0b2cb4ef84c9",
+      "Index": 13,
+      "Name": "Layer 13"
+    },
+    {
+      "Id": "376e5287-6956-6e52-9e90-a6d0a8932de8",
+      "Index": 14,
+      "Name": "Layer 14"
+    },
+    {
+      "Id": "74e9f59f-61ff-e450-afa5-3c242dbe8ffc",
+      "Index": 15,
+      "Name": "Layer 15"
+    },
+    {
+      "Id": "8e60d52a-468a-df51-a2bd-8d36eb17faae",
+      "Index": 16,
+      "Name": "Layer 16"
+    },
+    {
+      "Id": "79ae81b3-2811-fd52-be63-1c6c659eee3d",
+      "Index": 17,
+      "Name": "Layer 17"
+    },
+    {
+      "Id": "17e87753-c259-005c-b6f2-a2dbc7afc229",
+      "Index": 18,
+      "Name": "Layer 18"
+    },
+    {
+      "Id": "07b92ed3-06e4-ad5a-9e87-620d932e8784",
+      "Index": 19,
+      "Name": "Layer 19"
+    },
+    {
+      "Id": "4d7561de-05d5-a958-aa07-1431cb99e22d",
+      "Index": 20,
+      "Name": "Layer 20"
+    },
+    {
+      "Id": "0581b6b1-9e2d-1e51-9dec-bcc4fb024ff2",
+      "Index": 21,
+      "Name": "Layer 21"
+    },
+    {
+      "Id": "4efc1850-23d3-d053-8f6e-a74d14d91137",
+      "Index": 22,
+      "Name": "Layer 22"
+    },
+    {
+      "Id": "c31914b6-7853-415d-a835-7e6da2893849",
+      "Index": 23,
+      "Name": "Layer 23"
+    },
+    {
+      "Id": "d68ebb53-15aa-6156-9550-d3cd0e8c8926",
+      "Index": 24,
+      "Name": "Layer 24"
+    },
+    {
+      "Id": "5853ca04-27cf-4f57-a116-b78a618a7531",
+      "Index": 25,
+      "Name": "Layer 25"
+    },
+    {
+      "Id": "c6552682-199a-ff59-bf29-a4a453029f7a",
+      "Index": 26,
+      "Name": "Layer 26"
+    },
+    {
+      "Id": "a0ce4e82-b4a6-aa59-bcd2-7fa829d490c8",
+      "Index": 27,
+      "Name": "Layer 27"
+    },
+    {
+      "Id": "867ab77c-acfe-185f-845e-3f0ade08afa5",
+      "Index": 28,
+      "Name": "Layer 28"
+    },
+    {
+      "Id": "5c6b2ba4-5ad4-9d52-8430-33936155dc53",
+      "Index": 29,
+      "Name": "Layer 29"
+    },
+    {
+      "Id": "a3813423-4e52-4d5b-a93e-685a8cebd1eb",
+      "Index": 30,
+      "Name": "Layer 30"
+    },
+    {
+      "Id": "c8bd5a61-425c-9d5a-ac89-1ecb97b923ac",
+      "Index": 31,
+      "Name": "Layer 31"
+    }
+  ],
+  "RenderLayers": [
+    {
+      "Id": "54ac3871-ab2e-bf53-8bb7-bcd9d4d7f0b9",
+      "Index": 0,
+      "Name": "Default"
+    },
+    {
+      "Id": "bba270e9-cf21-7d55-8be5-143a8ad52d5b",
+      "Index": 1,
+      "Name": "Layer 1"
+    },
+    {
+      "Id": "c3e3bbf3-430d-a650-8995-7c0197a93eac",
+      "Index": 2,
+      "Name": "Layer 2"
+    },
+    {
+      "Id": "f4e24a90-088e-525d-a194-d644bd3959f3",
+      "Index": 3,
+      "Name": "Layer 3"
+    },
+    {
+      "Id": "b2c664b4-7b38-745b-ab3c-c0b4032f8afc",
+      "Index": 4,
+      "Name": "Layer 4"
+    },
+    {
+      "Id": "c0b9dfee-206d-9455-ad9d-c61ba9676810",
+      "Index": 5,
+      "Name": "Layer 5"
+    },
+    {
+      "Id": "b169f1f4-0850-3755-85e6-2e23bb5349fb",
+      "Index": 6,
+      "Name": "Layer 6"
+    },
+    {
+      "Id": "bf3c740c-52c9-d357-a292-2c899ec24936",
+      "Index": 7,
+      "Name": "Layer 7"
+    },
+    {
+      "Id": "9987b817-b34e-7f59-b8bb-624553dc3148",
+      "Index": 8,
+      "Name": "Layer 8"
+    },
+    {
+      "Id": "f4a41d21-fff3-625e-8930-a06c4a475132",
+      "Index": 9,
+      "Name": "Layer 9"
+    },
+    {
+      "Id": "6093a4c3-1768-9056-b92f-07f897fe0180",
+      "Index": 10,
+      "Name": "Layer 10"
+    },
+    {
+      "Id": "0176bc3c-7c23-0655-a198-6a8d06884423",
+      "Index": 11,
+      "Name": "Layer 11"
+    },
+    {
+      "Id": "a2722e3e-f4bd-1d52-a183-145c0ea870e0",
+      "Index": 12,
+      "Name": "Layer 12"
+    },
+    {
+      "Id": "cc3eac4a-bbf6-ce5e-8888-eeb52503fa01",
+      "Index": 13,
+      "Name": "Layer 13"
+    },
+    {
+      "Id": "7b80aa23-be33-445f-89f2-c4f4a17a1c2b",
+      "Index": 14,
+      "Name": "Layer 14"
+    },
+    {
+      "Id": "04a9903c-ae2e-8d5a-b58f-d8dd829025ce",
+      "Index": 15,
+      "Name": "Layer 15"
+    },
+    {
+      "Id": "b4a1694b-8f7c-8858-aaab-f8c2d122cd12",
+      "Index": 16,
+      "Name": "Layer 16"
+    },
+    {
+      "Id": "5ab7058a-cda2-935d-819b-1953633ae5b3",
+      "Index": 17,
+      "Name": "Layer 17"
+    },
+    {
+      "Id": "d56edc71-811f-485d-bb1e-c47c662f88b7",
+      "Index": 18,
+      "Name": "Layer 18"
+    },
+    {
+      "Id": "5456c47c-d6fe-b757-8143-22a9e776d8b8",
+      "Index": 19,
+      "Name": "Layer 19"
+    },
+    {
+      "Id": "f50bda78-7708-8d5c-a9fd-7ee08ab1cfc3",
+      "Index": 20,
+      "Name": "Layer 20"
+    },
+    {
+      "Id": "fc7b8943-0c89-1b54-84b4-1ed90a883597",
+      "Index": 21,
+      "Name": "Layer 21"
+    },
+    {
+      "Id": "7aa1cb6e-8929-465b-aa81-4723b17fd4ba",
+      "Index": 22,
+      "Name": "Layer 22"
+    },
+    {
+      "Id": "a9da4e30-7f0b-2c5c-8011-3d65436542f3",
+      "Index": 23,
+      "Name": "Layer 23"
+    },
+    {
+      "Id": "c549dc23-5e81-3950-8ab3-c98430f1d51e",
+      "Index": 24,
+      "Name": "Layer 24"
+    },
+    {
+      "Id": "cf7a5091-1b86-4c5f-8d98-9ec153074a37",
+      "Index": 25,
+      "Name": "Layer 25"
+    },
+    {
+      "Id": "9c3f5543-a24c-a05f-8656-eb67d87fcea1",
+      "Index": 26,
+      "Name": "Layer 26"
+    },
+    {
+      "Id": "72c67bab-45df-da52-bb17-e6ffbe13948e",
+      "Index": 27,
+      "Name": "Layer 27"
+    },
+    {
+      "Id": "4283ba8c-7ac6-b85d-93ff-60a81a117743",
+      "Index": 28,
+      "Name": "Layer 28"
+    },
+    {
+      "Id": "dae4679a-1435-5a59-923b-8840aece8c57",
+      "Index": 29,
+      "Name": "Layer 29"
+    },
+    {
+      "Id": "21c591b2-d976-9559-ad77-edf29f4d86a5",
+      "Index": 30,
+      "Name": "Layer 30"
+    },
+    {
+      "Id": "1cbe9945-b5b4-3a59-ba1a-bfed081084ca",
+      "Index": 31,
+      "Name": "Layer 31"
+    }
+  ],
+  "SchemaVersion": 1,
+  "Id": "78a7b956-4e4a-4a3a-af58-6d36a9825951"
+}

@@ -1,0 +1,241 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Volume stage",
+  "Children": [
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Listener",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "1e9919ae-f343-569f-8715-8aa2baab3e39",
+          "CullingMask": 4294967295,
+          "UsePerspective": true,
+          "NearPlane": 0.01,
+          "FarPlane": 100,
+          "FieldOfViewDegrees": 60,
+          "Frustum": 40,
+          "BackgroundColor": {
+            "R": 0.2,
+            "G": 0.14,
+            "B": 0.08,
+            "A": 1
+          },
+          "AspectMode": 0,
+          "FixedAspectRatio": 1.7777778,
+          "Priority": 0,
+          "IsActive": true,
+          "Id": "95dff409-981b-4872-88ad-46daeba65de4"
+        },
+        {
+          "__TypeId": "66b53ae9-f948-4ff0-8859-bb024611e46d",
+          "IsActive": true,
+          "Id": "c7190f37-5740-40d0-b4f7-28cc579879f1"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "4b29fea9-f713-4ee2-817b-2b17e2b9607d"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "HUD",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+          "Document": {
+            "AssetId": "7e55ba62-a1ac-49ee-a7b0-229f33ad61eb"
+          },
+          "DataAssets": [
+            {
+              "$ref": "7c0e1c62-6dcc-449c-af32-7ae87ac4c50f"
+            },
+            {
+              "$ref": "def2959f-6ce7-443a-8497-7621eac6f2ba"
+            },
+            {
+              "$ref": "4a708d1e-902d-4932-9733-f40e33f54244"
+            },
+            {
+              "$ref": "46b8f5c5-de54-4538-a480-4896927e23f9"
+            }
+          ],
+          "StyleSheets": [],
+          "Mode": 0,
+          "SortOrder": 0,
+          "ScaleMode": 1,
+          "ReferenceResolution": {
+            "X": 780,
+            "Y": 440
+          },
+          "PanelSize": {
+            "X": 1024,
+            "Y": 640
+          },
+          "IsActive": true,
+          "Id": "4ce1c55b-3f88-4447-b52e-3d33293f9cbe"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "941808ac-c053-482f-9d37-65e157a1515f"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Reference tone",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "0a76c35e-2590-470d-8bea-d33ce4bfe8ec",
+          "Event": {
+            "AssetId": "d194774e-e1cd-4937-a234-0e9d7b14c13f"
+          },
+          "PlayOnStart": true,
+          "Volume": 1,
+          "Pitch": 1,
+          "IsActive": true,
+          "Id": "7bc76107-9406-4b21-8786-90febb5dc87a"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "ef72fcde-8615-4e25-a81c-b8330a2c893a"
+    }
+  ],
+  "Components": [
+    {
+      "__TypeId": "a7d82d52-9067-4d3c-83ef-a0e5ed08615b",
+      "Volume": {
+        "$ref": "7c0e1c62-6dcc-449c-af32-7ae87ac4c50f"
+      },
+      "Muted": {
+        "$ref": "def2959f-6ce7-443a-8497-7621eac6f2ba"
+      },
+      "IsActive": true,
+      "Id": "2bc81feb-b1e2-4b81-aed4-80dd8b028f01"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "46b8f5c5-de54-4538-a480-4896927e23f9"
+      },
+      "Scene": {
+        "AssetId": "9fa729c3-50f0-4dbc-a03b-ec1995a5ebcf"
+      },
+      "IsActive": true,
+      "Id": "356ab8ec-96b2-4771-bb30-ee0f1527188a"
+    },
+    {
+      "__TypeId": "6e28e560-8437-458f-a7d1-02f29489bfd4",
+      "Sound": {
+        "AssetId": "4a1a7cb2-f0d0-4067-8bc2-0fd92bdff9f0"
+      },
+      "Trigger": {
+        "$ref": "4a708d1e-902d-4932-9733-f40e33f54244"
+      },
+      "IsActive": true,
+      "Id": "8332364a-31a6-48ec-bc19-3429db92acd1"
+    },
+    {
+      "__TypeId": "3f9a7d12-8e64-4c05-b2c1-5a0e7f316d48",
+      "Trigger": {
+        "$ref": "46b8f5c5-de54-4538-a480-4896927e23f9"
+      },
+      "IsActive": true,
+      "Id": "939ac096-5874-48ad-b527-f671766f2e4a",
+      "ShowBack": false
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayer": 0,
+  "RenderLayer": 0,
+  "Id": "dfd9b3fd-bbd2-49cd-8a55-210a2de528c0"
+}

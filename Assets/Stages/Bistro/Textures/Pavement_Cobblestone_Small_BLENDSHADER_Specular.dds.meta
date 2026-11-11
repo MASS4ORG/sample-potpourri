@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Pavement_Cobblestone_Small_BLENDSHADER_Specular.dds",
+  "Labels": [],
+  "Id": "bb2607d3-1365-4cdd-a42c-6db921a444e0"
+}

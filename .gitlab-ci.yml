@@ -1,0 +1,33 @@
+# Builds the Android demo in the Turian CLI image: installs the pinned toolchain, restores the locked bricks and exports
+# an APK. A release keystore is optional; without one the job builds the Development profile with the debug key.
+variables:
+  TURIAN_CLI_IMAGE: ghcr.io/mass4org/turian-cli:latest
+  GAYA_BRICKS: ${CI_PROJECT_DIR}/.gaya-bricks
+  ANDROID_HOME: ${CI_PROJECT_DIR}/.android-sdk
+  APPLICATION_ID: org.mass4.turian.potpourri
+
+default:
+  image:
+    name: ${TURIAN_CLI_IMAGE}
+    entrypoint: [""]
+
+android:
+  cache:
+    key:
+      files:
+        - Bricks/packages-lock.json
+    paths:
+      - .gaya-bricks/
+      - .android-sdk/
+  script:
+    - bash /app/ci/android-toolchain.sh
+    - turian-cli brick restore --locked --project .
+    - turian-cli export . --profile Android --configuration Debug
+    - apk=$(find Output -name '*-Signed.apk' | head -n1)
+    - bash /app/ci/android-verify.sh "$apk" "$APPLICATION_ID"
+    - mv "$apk" "${CI_PROJECT_NAME}.apk"
+  artifacts:
+    name: ${CI_PROJECT_NAME}-${CI_COMMIT_SHORT_SHA}
+    paths:
+      - ${CI_PROJECT_NAME}.apk
+    expire_in: 1 week

@@ -1,0 +1,89 @@
+/*
+  theme.pss — stylesheet for showcase.ui, in PSS syntax.
+
+  Uses type / .class / #id / compound selectors, the :hover / :active / :focus / :disabled
+  states, $name tokens, text effects, and the layout + box declarations StyledNode applies
+  (flex-*, gap, padding, width/height, align-items, justify-content,
+  background-color, border-color, border-width, border-radius).
+*/
+
+$bg        = #12151d;
+$surface   = #1f2430;
+$surface-2 = #2a3140;
+$accent    = #4a90e2;
+$accent-2  = #2f6fc0;
+$border    = #3a4152;
+$ink       = #e8eaed;
+$ink-muted = #9aa0a6;
+
+.screen {
+    flex-direction = column;
+    gap = 10;
+    padding = 16;
+    background-color = $bg;
+}
+
+/* leaf text — resolved by the renderer via gui.ResolveStyle */
+Label       { color = $ink; font-size = 18; font-family = "Assets/Stages/Ui/Fonts/Inter-Regular.ttf"; }
+.h1         { color = $ink; font-size = 26; font-family = "Assets/Stages/Ui/Fonts/Inter-Bold.ttf"; }
+.muted      { color = $ink-muted; font-size = 15; }
+.fx         { color = $ink; font-size = 30; font-family = "Assets/Stages/Ui/Fonts/Inter-Bold.ttf"; }
+
+.sample-flat     { color = $ink; }
+.sample-outline  { color = $ink;   text-outline = #0b0d12 3; }
+.sample-drop     { color = $ink;   text-shadow = #000000bb 0 3 6; }
+.sample-inner    { color = #6fa8e0; text-inner-shadow = #00000099 0 2 4; }
+.sample-gradient { text-gradient = linear(#8ab4f8, #f28b82, 25); }
+.sample-combined {
+    color = $ink;
+    text-outline = #0b0d12 3;
+    text-shadow = #000000bb 0 3 6;
+    text-gradient = linear(#8ab4f8, #f28b82, 25);
+}
+
+.card {
+    flex-direction = column;
+    gap = 10;
+    padding = 16;
+    background-color = $surface;
+    border-color = $border;
+    border-width = 1;
+    border-radius = 10;
+}
+
+.toolbar {
+    flex-direction = row;
+    gap = 12;
+    align-items = center;
+}
+
+.icon-btn {
+    width = 48;
+    height = 48;
+    background-color = $surface-2;
+    border-color = $border;
+    border-width = 1;
+    border-radius = 8;
+    align-items = center;
+    justify-content = center;
+}
+.icon-btn:hover  { background-color = $accent; border-color = $accent; }
+.icon-btn:active { background-color = $accent-2; }
+.icon-btn:disabled { background-color = $surface; border-color = $surface; }
+
+.icon-btn.wide { width = 140; }
+.icon-btn.tall { height = 72; }
+
+.effects-grid {
+    flex-direction = row;
+    gap = 14;
+    padding = 8;
+}
+
+.statusbar {
+    background-color = $surface;
+    border-radius = 6;
+    padding = 6;
+}
+
+Toggle { color = $ink; font-size = 18; border-color = $accent; }

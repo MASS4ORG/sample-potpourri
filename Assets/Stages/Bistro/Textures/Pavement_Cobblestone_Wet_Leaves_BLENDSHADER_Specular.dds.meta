@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Pavement_Cobblestone_Wet_Leaves_BLENDSHADER_Specular.dds",
+  "Labels": [],
+  "Id": "67a1d37c-94bf-4e35-bf0c-87f38ec1b82c"
+}

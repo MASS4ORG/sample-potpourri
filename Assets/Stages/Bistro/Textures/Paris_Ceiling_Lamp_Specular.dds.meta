@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Paris_Ceiling_Lamp_Specular.dds",
+  "Labels": [],
+  "Id": "1fbd9cd0-a269-43bd-8cdb-28aeb1a7a00c"
+}

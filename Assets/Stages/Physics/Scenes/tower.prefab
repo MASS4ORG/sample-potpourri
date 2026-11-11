@@ -1,0 +1,342 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Tower shooter",
+  "Children": [
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Camera",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "1e9919ae-f343-569f-8715-8aa2baab3e39",
+          "CullingMask": 4294967295,
+          "UsePerspective": true,
+          "NearPlane": 0.1,
+          "FarPlane": 400,
+          "FieldOfViewDegrees": 60,
+          "Frustum": 40,
+          "BackgroundColor": {
+            "R": 0.32,
+            "G": 0.45,
+            "B": 0.62,
+            "A": 1
+          },
+          "AspectMode": 0,
+          "FixedAspectRatio": 1.7777778,
+          "Priority": 0,
+          "IsActive": true,
+          "Id": "21b85fbc-d425-4dfe-afd5-e72f98cf9c1e"
+        },
+        {
+          "__TypeId": "13895549-9ed7-49da-bab0-6a00aac1db93",
+          "Target": {
+            "X": -2,
+            "Y": 5,
+            "Z": 0
+          },
+          "Distance": 40,
+          "Yaw": 0,
+          "Pitch": 15,
+          "Id": "b1fe8a1b-3d85-4773-8b80-c5d271251d4d"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "2ace3c46-1420-4be9-b1a9-e204d0271e59"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Sun",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "4d08c521-7f64-5859-9b98-e8f5e418f0be",
+          "CullingMask": 4294967295,
+          "Type": 1,
+          "Intensity": 1.5,
+          "Color": {
+            "X": 1,
+            "Y": 1,
+            "Z": 1,
+            "W": 1
+          },
+          "IsActive": true,
+          "Id": "b560d099-f56f-48a5-a24d-6d401b4674d1"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0.4082179,
+          "Y": -0.23456971,
+          "Z": 0.10938165,
+          "W": 0.87542605
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "a27b3d73-2503-4aea-bc41-6aacf59e281a"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Ground",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "9acb4142-14f8-5681-bd8b-d35fddd41ed1",
+          "Model": {
+            "AssetId": "7afdff86-a39d-487b-a0ce-466a9950e7f8"
+          },
+          "Color": {
+            "R": 0.42,
+            "G": 0.45,
+            "B": 0.4,
+            "A": 1
+          },
+          "Id": "be14e3e3-76bd-4dcd-89ee-8ecefc282d1e"
+        },
+        {
+          "__TypeId": "6084b6f2-581c-40f2-842b-13768dad5a13",
+          "Size": {
+            "X": 1,
+            "Y": 1,
+            "Z": 1
+          },
+          "Id": "f519541f-84a6-46a5-97f4-377a1eea7a26"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": -0.5,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 100,
+          "Y": 1,
+          "Z": 100
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "e84fc1e4-7df5-4ac8-947a-3c0c5f3af2ca"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Scene tabs",
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "PrefabInstance": {
+        "Source": {
+          "AssetId": "df01cf7f-a86f-4117-a8e0-3ba499b4f0da"
+        }
+      },
+      "Id": "4535bbf4-13ff-4cfe-807f-4bd9510187a9"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Physics stats",
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "PrefabInstance": {
+        "Source": {
+          "AssetId": "297a1246-2fe5-453b-a5cc-6956483c60ec"
+        }
+      },
+      "Id": "dfc8b5fa-1825-4be0-8ffd-d77fccdebe52"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Touch keys",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+          "Mode": 0,
+          "SortOrder": 90,
+          "ScaleMode": 1,
+          "ReferenceResolution": {
+            "X": 780,
+            "Y": 440
+          },
+          "Id": "52abe1d0-00af-4c94-b443-bf468933b21b"
+        },
+        {
+          "__TypeId": "7c1e4b90-52d3-4a86-9f10-6b3d2e8a4c17",
+          "Pad": "",
+          "Actions": "R=Rebuild;E=Blast;F=Drag",
+          "IsActive": true,
+          "Id": "f8df6420-e5e0-4b38-9269-093c007c915c"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "84c7f4aa-30fd-4f4d-b763-72d8a69e3473"
+    }
+  ],
+  "Components": [
+    {
+      "__TypeId": "e06613ed-62ad-4685-94d7-837dd7ff4018",
+      "Id": "408ffbc6-06b5-44bc-8102-60c3268a7a9b"
+    },
+    {
+      "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+      "Mode": 0,
+      "ScaleMode": 1,
+      "Id": "9a3f7841-f7cc-4cbe-b1ea-781526dee0a4",
+      "ReferenceResolution": {
+        "X": 780,
+        "Y": 440
+      }
+    },
+    {
+      "__TypeId": "65428eea-90a8-4402-bb28-d2d19274680b",
+      "Id": "97623fb2-a032-4372-bdf7-05afde4da6b1"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "Scene": {
+        "AssetId": "70000000-0000-4000-8000-000000000001"
+      },
+      "IsActive": true,
+      "Id": "80d906f1-e8fc-4e32-b763-bd2e6618b7a5"
+    },
+    {
+      "__TypeId": "3f9a7d12-8e64-4c05-b2c1-5a0e7f316d48",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "IsActive": true,
+      "Id": "6a440a33-5ddb-4f41-be07-572be9d0851c"
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayer": 0,
+  "RenderLayer": 0,
+  "Id": "632a8910-4a0f-4ff3-a189-8a02efafa3b5"
+}

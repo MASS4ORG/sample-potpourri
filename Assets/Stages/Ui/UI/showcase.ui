@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Screen-space overlay showcase: 9-slice image buttons + text effects.
+  Authoring format defined by Epic 1 issue #7. Code-behind: ShowcaseController (issue #17).
+-->
+<UI xmlns="https://atomicmassa.dev/ui" controller="Usercode.ShowcaseController">
+
+  <Style src="Assets/Stages/Ui/UI/theme.pss" />
+
+  <VisualElement name="root" class="screen">
+
+    <!-- ================= 9-slice image buttons ================= -->
+    <VisualElement name="nine-slice" class="card">
+      <Label class="h1" text="9-slice image buttons" />
+      <Label class="muted" text="Corners stay crisp, edges stretch." />
+
+      <VisualElement class="toolbar">
+        <ImageButton name="btnPower" class="icon-btn"
+                     image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                     image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                     image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                     nine-slice="12,12,12,12"
+                     icon="" tooltip="Power" click="OnPower" />
+
+        <ImageButton name="btnRefresh" class="icon-btn"
+                     image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                     image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                     image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                     nine-slice="12,12,12,12"
+                     icon="" tooltip="Refresh" click="OnRefresh" />
+
+        <ImageButton name="btnWide" class="icon-btn wide"
+                     image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                     image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                     image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                     nine-slice="12,12,12,12"
+                     text="Wide button" click="OnWide" />
+
+        <ImageButton name="btnTall" class="icon-btn tall"
+                     image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                     image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                     image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                     nine-slice="12,12,12,12"
+                     icon="" tooltip="Settings" click="OnSettings" />
+
+        <ImageButton name="btnDisabled" class="icon-btn"
+                     image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                     image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                     image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                     image-disabled="Assets/Stages/Ui/Textures/UI/button_9slice_disabled.png"
+                     nine-slice="12,12,12,12"
+                     icon="" tooltip="Locked" enabled="false" />
+      </VisualElement>
+    </VisualElement>
+
+    <!-- ================= text effects ================= -->
+    <VisualElement name="effects" class="card">
+      <Label class="h1" text="Text effects" />
+      <Label class="muted" text="One string, several treatments." />
+
+      <VisualElement class="effects-grid">
+        <Label class="fx sample-flat"     text="Turian" />
+        <Label class="fx sample-outline"  text="Turian" />
+        <Label class="fx sample-drop"     text="Turian" />
+        </VisualElement>
+      <VisualElement class="effects-grid">
+        <Label class="fx sample-inner"    text="Turian" />
+        <Label name="fxGradient" class="fx sample-gradient" text="Turian" />
+        <Label class="fx sample-combined" text="Turian" />
+      </VisualElement>
+
+      <Toggle name="animToggle" label="Animate gradient" value="true" value-changed="OnToggleAnim" />
+    </VisualElement>
+
+    <Label name="status" class="statusbar" binding-text="{Status}" />
+  </VisualElement>
+</UI>

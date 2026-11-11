@@ -1,0 +1,14 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 40; gap: 10">
+    <Label class="title" text="Spatial" />
+    <Label text="Headphones show this best." />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="orbit" text="Orbit" click="asset://e1f96553-29f6-4daa-8853-3b593c701a0b" />
+        <Button class="wide" style="height: 100%" name="sweep" text="Sweep" click="asset://f43f71b2-ffa8-4359-8589-bda5f0aa6a7f" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="back" text="Back" click="asset://46b8f5c5-de54-4538-a480-4896927e23f9" />
+      </VisualElement>
+  </VisualElement>
+</UI>

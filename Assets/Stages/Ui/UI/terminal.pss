@@ -1,0 +1,54 @@
+/*
+  terminal.pss — CRT-green diagnostics screen for diagnostics.ui (world-space panel), in PSS syntax.
+
+  The panel is driven by background-color, borders and layout; see theme.pss for the
+  selectors and declarations in use.
+*/
+
+$green     = #7dffb0;
+$green-dim = #3a7d5a;
+$bg        = #04120a;
+$panel     = #0c2a1b;
+$danger    = #ff6b6b;
+
+.crt {
+    flex-direction = column;
+    padding = 20;
+    gap = 14;
+    background-color = $bg;
+}
+
+.titlebar { flex-direction = row; gap = 12; align-items = center; }
+
+.body { flex-direction = column; gap = 14; flex-grow = 1; }
+
+.meters { flex-direction = row; gap = 24; }
+.meter { flex-direction = column; gap = 4; flex-grow = 1; }
+
+.bar {
+    height = 14;
+    background-color = $panel;
+    border-color = $green-dim;
+    border-width = 1;
+    border-radius = 4;
+}
+.fill { height = 14; border-radius = 4; background-color = $green; }
+.fill.ram { background-color = $green-dim; }
+
+.proc-list, .log { flex-grow = 1; }
+.proc-row { flex-direction = row; gap = 12; padding = 3; }
+.proc-row:hover { background-color = $panel; }
+
+.footer { flex-direction = row; gap = 12; justify-content = flex-end; }
+.term-btn {
+    width = 120;
+    height = 40;
+    background-color = $panel;
+    border-color = $green-dim;
+    border-width = 1;
+    border-radius = 6;
+    align-items = center;
+    justify-content = center;
+}
+.term-btn.danger { border-color = $danger; }
+.term-btn.danger:hover { background-color = $danger; }

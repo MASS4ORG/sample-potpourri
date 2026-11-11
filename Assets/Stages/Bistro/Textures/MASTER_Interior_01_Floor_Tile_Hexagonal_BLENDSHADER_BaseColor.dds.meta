@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/MASTER_Interior_01_Floor_Tile_Hexagonal_BLENDSHADER_BaseColor.dds",
+  "Labels": [],
+  "Id": "b0360006-e506-40c0-9de1-63beedf5a540"
+}

@@ -1,0 +1,13 @@
+{
+  "__TypeId": "e59d7123-c554-5d48-a6bf-ff26210283e7",
+  "ProductName": "Turian Potpourri",
+  "Author": "MASS4",
+  "ApplicationIdentifier": "org.mass4.turian.potpourri",
+  "Version": "0.1.0",
+  "Icon": null,
+  "StartupScene": {
+    "AssetId": "70000000-0000-4000-8000-000000000001"
+  },
+  "SchemaVersion": 1,
+  "Id": "1f51d094-45da-4c57-8236-d0da84fedc85"
+}

@@ -1,0 +1,176 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Showcase",
+  "Children": [
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Main Camera",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "1e9919ae-f343-569f-8715-8aa2baab3e39",
+          "UsePerspective": true,
+          "NearPlane": 0.01,
+          "FarPlane": 100,
+          "FieldOfViewDegrees": 26.991465,
+          "FocalLength": 50,
+          "SensorHeight": 24,
+          "Frustum": 40,
+          "AspectMode": 0,
+          "FixedAspectRatio": 1.7777778,
+          "Priority": 100,
+          "IsActive": true,
+          "Id": "b1a5e0d0-1111-4a00-8000-0000000000c1"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 1.5,
+          "Z": 5
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Id": "b1a5e0d0-1111-4a00-8000-0000000000c0"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Sun",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "4d08c521-7f64-5859-9b98-e8f5e418f0be",
+          "Type": 2,
+          "Intensity": 2,
+          "Color": {
+            "X": 1,
+            "Y": 0.97,
+            "Z": 0.9,
+            "W": 1
+          },
+          "IsActive": true,
+          "Id": "b1a5e0d0-1111-4a00-8000-0000000000d1"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 2,
+          "Y": 4,
+          "Z": 3
+        },
+        "Orientation": {
+          "X": -0.35,
+          "Y": 0.25,
+          "Z": 0.1,
+          "W": 0.9
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Id": "b1a5e0d0-1111-4a00-8000-0000000000d0"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Screen Space UI",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+          "Document": {
+            "AssetId": "3e162549-94f5-4c3c-bb89-067bc484dbf7"
+          },
+          "StyleSheets": [],
+          "Mode": 0,
+          "SortOrder": 0,
+          "ScaleMode": 1,
+          "ReferenceResolution": {
+            "X": 900,
+            "Y": 500
+          },
+          "PanelSize": {
+            "X": 1024,
+            "Y": 640
+          },
+          "IsActive": true,
+          "Id": "b1a5e0d0-1111-4a00-8000-0000000000a1"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Id": "b1a5e0d0-1111-4a00-8000-0000000000a2"
+    }
+  ],
+  "Components": [
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "Scene": {
+        "AssetId": "70000000-0000-4000-8000-000000000001"
+      },
+      "IsActive": true,
+      "Id": "656d9482-1969-4772-bc08-e04e77330efa"
+    },
+    {
+      "__TypeId": "3f9a7d12-8e64-4c05-b2c1-5a0e7f316d48",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "IsActive": true,
+      "Id": "5f23bea2-50ec-432c-88cd-b7596ea6428f"
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Id": "b1a5e0d0-1111-4a00-8000-0000000000a0"
+}

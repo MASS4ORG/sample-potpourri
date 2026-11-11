@@ -1,0 +1,20 @@
+{
+  "__TypeId": "bbf8bc67-0f8c-4613-a263-5f1ee7cb28f6",
+  "EventName": "volume.reference",
+  "Clips": [
+    {
+      "AssetId": "bf7ca980-790c-4289-8c1f-360a44134a8e"
+    }
+  ],
+  "Volume": 0.5,
+  "Pitch": 1,
+  "Loop": true,
+  "Spatial": false,
+  "MinDistance": 1,
+  "MaxDistance": 100,
+  "Priority": 128,
+  "Stream": false,
+  "SchemaVersion": 1,
+  "Id": "d194774e-e1cd-4937-a234-0e9d7b14c13f",
+  "Bus": "SFX"
+}

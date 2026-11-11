@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "org.mass4.turian.vulkan": "builtin:org.mass4.turian.vulkan",
+    "org.mass4.turian.android": "file:../../../../dev/Bricks/org.mass4.turian.android",
+    "org.mass4.turian.ddd": "file:../../../../dev/Bricks/org.mass4.turian.ddd",
+    "org.mass4.turian.ui": "file:../../../../dev/Bricks/org.mass4.turian.ui",
+    "org.mass4.turian.cameras": "file:../../../../dev/Bricks/org.mass4.turian.cameras",
+    "org.mass4.turian.physics": "file:../../../../dev/Bricks/org.mass4.turian.physics",
+    "org.mass4.turian.physics.bepu": "file:../../../../dev/Bricks/org.mass4.turian.physics.bepu",
+    "org.mass4.turian.audio": "file:../../../../dev/Bricks/org.mass4.turian.audio",
+    "org.mass4.turian.audio.miniaudio": "file:../../../../dev/Bricks/org.mass4.turian.audio.miniaudio",
+    "org.mass4.turian.save": "file:../../../../dev/Bricks/org.mass4.turian.save"
+  }
+}

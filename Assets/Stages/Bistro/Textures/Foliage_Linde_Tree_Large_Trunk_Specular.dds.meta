@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Foliage_Linde_Tree_Large_Trunk_Specular.dds",
+  "Labels": [],
+  "Id": "bd6cb681-63fa-40cd-858b-de9240e439b4"
+}

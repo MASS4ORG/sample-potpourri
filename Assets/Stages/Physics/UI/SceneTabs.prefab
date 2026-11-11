@@ -1,0 +1,46 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Scene tabs",
+  "Children": [],
+  "Components": [
+    {
+      "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+      "Mode": 0,
+      "ScaleMode": 1,
+      "Id": "fef30c56-9490-4ec6-92d1-26bb201afabb",
+      "ReferenceResolution": {
+        "X": 780,
+        "Y": 440
+      }
+    },
+    {
+      "__TypeId": "1f91efcb-5647-41ad-a382-5909f2965962",
+      "Id": "4096171f-8c2f-42a2-89a3-62c4114fcc85"
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayer": 0,
+  "RenderLayer": 0,
+  "Id": "1ef9f398-7123-463b-9d70-0978b5301821"
+}

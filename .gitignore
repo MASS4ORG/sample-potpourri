@@ -1,0 +1,55 @@
+# Common
+!Directory.Build.props
+*.Build.props
+*.coverage
+*.coveragexml
+*.local.props
+*.trx
+*.user
+*.userprefs
+.config/
+.DS_Store
+*.sln.iml
+.local
+.publish/
+[Bb]in/
+[Cc]ache/
+[Dd]ebug/
+[Ll]og/
+[Ll]ogs/
+[Oo]bj/
+[Rr]elease/
+artifacts/
+coverage*.*
+coverage/
+Thumbs.db
+
+# IDEs and assistants
+.claude/
+.cursor/
+.idea/
+.vs/
+.vscode/
+.zed
+docs/internal/
+.script-*.cs
+.script-*.sh
+.script-*.py
+
+#### Project
+
+# Turian generated content
+.Cache/
+.gaya/
+Output/
+.gaya-bricks/
+Bricks/NuGet/obj/
+Bricks/NuGet/bin/
+Bricks/manifest.user.json
+
+# .NET build output of the tools and tests
+tools/**/bin/
+tools/**/obj/
+Tests/**/bin/
+Tests/**/obj/
+TestResults/

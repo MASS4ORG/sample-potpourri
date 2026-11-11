@@ -1,0 +1,41 @@
+// Theme.pss: the shared look of every audio showcase stage.
+
+$bg        = #12151d;
+$surface   = #1f2430;
+$surface-2 = #2a3140;
+$accent    = #4a90e2;
+$accent-2  = #2f6fc0;
+$border    = #3a4152;
+$ink       = #e8eaed;
+$ink-muted = #9aa0a6;
+
+.screen { width = expand; height = expand; }
+
+Label { color = $ink; font-size = 18; }
+
+Button {
+    color = $ink;
+    font-size = 18;
+    padding = 0 12;
+    align-items = center;
+    justify-content = center;
+    background-color = $surface-2;
+    border-color = $border;
+    border-width = 1;
+    border-radius = 8;
+    :hover { background-color = $accent; border-color = $accent; }
+    :active { background-color = $accent-2; }
+}
+
+Toggle { color = $ink; font-size = 18; border-color = $accent; }
+
+Slider { cursor = pointer; }
+Slider track { height = 8; background-color = $surface-2; border-radius = 3; }
+Slider fill { height = 8; background-color = $accent; border-radius = 3; }
+Slider thumb { width = 28; height = 28; border-radius = 50%; background-color = $ink; }
+Slider:dragging thumb { background-color = $accent; }
+
+.title { font-size = 30; }
+.wide { width = expand; }
+.fill { width = expand; height = expand; }
+.back-bar { width = expand; height = expand; justify-content = end; align-items = end; padding = 14; }

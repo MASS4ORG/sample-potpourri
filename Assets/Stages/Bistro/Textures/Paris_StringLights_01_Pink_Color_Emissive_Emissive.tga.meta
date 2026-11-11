@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": true,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Paris_StringLights_01_Pink_Color_Emissive_Emissive.tga",
+  "Labels": [],
+  "Id": "eb8eb2b7-bc2e-45ce-bd34-1db330969efd"
+}

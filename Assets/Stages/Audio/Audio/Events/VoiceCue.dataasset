@@ -1,0 +1,20 @@
+{
+  "__TypeId": "bbf8bc67-0f8c-4613-a263-5f1ee7cb28f6",
+  "EventName": "mixer.voice.cue",
+  "Clips": [
+    {
+      "AssetId": "bf7ca980-790c-4289-8c1f-360a44134a8e"
+    }
+  ],
+  "Volume": 0.6,
+  "Pitch": 1,
+  "Loop": false,
+  "Spatial": false,
+  "MinDistance": 1,
+  "MaxDistance": 100,
+  "Priority": 128,
+  "Stream": false,
+  "SchemaVersion": 1,
+  "Id": "d1b20366-ae67-503d-9614-758d846158d5",
+  "Bus": "Voice"
+}

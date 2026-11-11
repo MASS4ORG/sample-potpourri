@@ -1,0 +1,248 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Potpourri menu",
+  "Children": [
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Listener",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "1e9919ae-f343-569f-8715-8aa2baab3e39",
+          "CullingMask": 4294967295,
+          "UsePerspective": true,
+          "NearPlane": 0.01,
+          "FarPlane": 100,
+          "FieldOfViewDegrees": 60,
+          "Frustum": 40,
+          "BackgroundColor": {
+            "R": 0.12,
+            "G": 0.14,
+            "B": 0.2,
+            "A": 1
+          },
+          "AspectMode": 0,
+          "FixedAspectRatio": 1.7777778,
+          "Priority": 0,
+          "IsActive": true,
+          "Id": "87434bef-ac12-4ec8-81aa-4f69126d4f71"
+        },
+        {
+          "__TypeId": "66b53ae9-f948-4ff0-8859-bb024611e46d",
+          "IsActive": true,
+          "Id": "17c1b831-b137-4c8d-8540-d54f6cdb60f3"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "8a998491-0541-4364-81b8-9783ac1421f9"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "HUD",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+          "Document": {
+            "AssetId": "70000000-0000-4000-8000-000000000002"
+          },
+          "DataAssets": [
+            {
+              "$ref": "b76c2f12-500d-56c7-a875-e7a3ea11f411"
+            },
+            {
+              "$ref": "dd74be19-0c4b-5698-afbf-6e61ff221cda"
+            },
+            {
+              "$ref": "e5fa5e36-45a9-59ed-b9b7-6616596ede2d"
+            },
+            {
+              "$ref": "b01c3cd0-c9b6-5423-9732-e97cfc7beafc"
+            },
+            {
+              "$ref": "241f4add-cc30-5156-aba6-aa78101d963a"
+            },
+            {
+              "$ref": "4cc8a817-878d-5a32-8091-5c81320b6a5a"
+            },
+            {
+              "$ref": "70000000-0000-4000-8000-000000000005"
+            }
+          ],
+          "StyleSheets": [],
+          "Mode": 0,
+          "SortOrder": 100,
+          "ScaleMode": 1,
+          "ReferenceResolution": {
+            "X": 780,
+            "Y": 440
+          },
+          "PanelSize": {
+            "X": 1024,
+            "Y": 640
+          },
+          "IsActive": true,
+          "Id": "5c6511f0-2175-4cba-a958-56a3b9323b90"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "07a8e443-39b5-4e93-bd74-cd18b1af77ca"
+    }
+  ],
+  "Components": [
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "b76c2f12-500d-56c7-a875-e7a3ea11f411"
+      },
+      "Scene": {
+        "AssetId": "9fa729c3-50f0-4dbc-a03b-ec1995a5ebcf"
+      },
+      "IsActive": true,
+      "Id": "7e4b1195-239f-4997-86ea-b81805ca93a3"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "dd74be19-0c4b-5698-afbf-6e61ff221cda"
+      },
+      "Scene": {
+        "AssetId": "5d063605-4be9-4906-ab76-d149b9c3ad93"
+      },
+      "IsActive": true,
+      "Id": "c38aa5e6-09ef-4f0c-b843-a54da86332d0"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "e5fa5e36-45a9-59ed-b9b7-6616596ede2d"
+      },
+      "Scene": {
+        "AssetId": "a7f96412-da42-4f22-83b8-7563d8b63f39"
+      },
+      "IsActive": true,
+      "Id": "24e41877-aa8d-4231-9628-cfbb10ba8914"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "b01c3cd0-c9b6-5423-9732-e97cfc7beafc"
+      },
+      "Scene": {
+        "AssetId": "16f6185c-0132-564c-b733-3992480f6c69"
+      },
+      "IsActive": true,
+      "Id": "a59c18e1-663d-49e3-8713-524f352bdda2"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "241f4add-cc30-5156-aba6-aa78101d963a"
+      },
+      "Scene": {
+        "AssetId": "c3d1f0a2-5b8e-4c71-9a10-3e6f2b7d9a02"
+      },
+      "IsActive": true,
+      "Id": "bda2b8d8-42d5-4b91-98d1-b9b9ce21d259"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "4cc8a817-878d-5a32-8091-5c81320b6a5a"
+      },
+      "Scene": {
+        "AssetId": "b1570000-0000-4000-8000-000000000001"
+      },
+      "IsActive": true,
+      "Id": "2a8c08d1-395f-4f7c-a60f-4dd8acd1b909"
+    },
+    {
+      "__TypeId": "6f2b8a64-3c1e-4f0a-9a57-0d4a7b1e6c21",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000005"
+      },
+      "IsActive": true,
+      "Id": "ba9fe2c5-097c-430e-bd0c-dbc5a187a058"
+    },
+    {
+      "__TypeId": "3f9a7d12-8e64-4c05-b2c1-5a0e7f316d48",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000005"
+      },
+      "IsActive": true,
+      "Id": "c6e7113f-051a-4c0c-8c4a-6228b1c6829a",
+      "ShowBack": false
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayer": 0,
+  "RenderLayer": 0,
+  "Id": "1d41b33f-a873-4c47-858a-ab17bb83caf4"
+}

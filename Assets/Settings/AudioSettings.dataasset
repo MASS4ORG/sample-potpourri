@@ -1,0 +1,15 @@
+{
+  "__TypeId": "0edcd9ad-e28c-4cb5-9174-26d6cbd3b33c",
+  "SampleRate": 48000,
+  "BufferFrames": 512,
+  "MaxVirtualVoices": 64,
+  "CommandCapacity": 1024,
+  "DeviceName": "",
+  "MaxStreams": 4,
+  "StreamBufferFrames": 32768,
+  "SchemaVersion": 1,
+  "Id": "24396c50-483a-4c8d-ac59-6d8ea406d875",
+  "Mixer": {
+    "AssetId": "73fbad7d-78c3-5e08-90c1-61dfa640469d"
+  }
+}

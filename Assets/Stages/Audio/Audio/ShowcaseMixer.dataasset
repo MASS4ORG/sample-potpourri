@@ -1,0 +1,82 @@
+{
+  "__TypeId": "07125d85-afd4-55c0-b543-1ce96ed39462",
+  "Id": "73fbad7d-78c3-5e08-90c1-61dfa640469d",
+  "Buses": [
+    {
+      "Name": "Master",
+      "Parent": "",
+      "Volume": 0.8,
+      "Effects": [
+        {
+          "Kind": 0,
+          "Cutoff": 650,
+          "Wet": 0
+        },
+        {
+          "Kind": 5,
+          "ThresholdDb": -1,
+          "Wet": 1
+        }
+      ]
+    },
+    {
+      "Name": "Music",
+      "Parent": "Master",
+      "Ducking": {
+        "SourceBus": "Voice",
+        "ThresholdDb": -35,
+        "ReductionDb": 15,
+        "Attack": 0.02,
+        "Release": 0.5
+      }
+    },
+    {
+      "Name": "SFX",
+      "Parent": "Master",
+      "Effects": [
+        {
+          "Kind": 2,
+          "Seconds": 0.8,
+          "Feedback": 0.65,
+          "Wet": 0.15
+        }
+      ]
+    },
+    {
+      "Name": "Voice",
+      "Parent": "Master"
+    },
+    {
+      "Name": "UI",
+      "Parent": "Master"
+    }
+  ],
+  "Snapshots": [
+    {
+      "Name": "Normal"
+    },
+    {
+      "Name": "Underwater",
+      "Values": [
+        {
+          "Bus": "Master",
+          "Volume": 0.8,
+          "EffectWet": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Pause",
+      "Values": [
+        {
+          "Bus": "Music",
+          "Volume": 0.2
+        }
+      ]
+    }
+  ],
+  "SchemaVersion": 1
+}

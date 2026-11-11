@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": true,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Foliage_Linde_Tree_Large_Trunk_Normal.dds",
+  "Labels": [],
+  "Id": "d060bee0-22e1-4152-b1b4-f39e6c91f40d"
+}

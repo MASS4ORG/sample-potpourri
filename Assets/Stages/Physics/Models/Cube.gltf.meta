@@ -1,0 +1,17 @@
+{
+  "__TypeId": "308dc8ac-3bc0-55f2-a12e-2c00bb440973",
+  "ImportSettings": {
+    "Format": "GLTF",
+    "ImportMeshes": true,
+    "ImportMaterials": true,
+    "ImportAnimations": false,
+    "RecalculateNormals": false,
+    "GenerateTangents": false,
+    "ScaleFactor": 1,
+    "OptimizeHierarchy": true,
+    "ImportExtras": false,
+    "ImportExtensions": false
+  },
+  "RelativePath": "Assets/Stages/Physics/Models/Cube.gltf",
+  "Id": "7afdff86-a39d-487b-a0ce-466a9950e7f8"
+}

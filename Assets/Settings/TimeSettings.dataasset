@@ -1,0 +1,7 @@
+{
+  "__TypeId": "30caacaf-7e76-47ea-9f56-f1ce39ae52dc",
+  "FixedDeltaTime": 0.016666666666666666,
+  "MaxTicksPerFrame": 3,
+  "DropBacklog": true,
+  "Id": "6703b596-88a5-41de-a889-56af21575d55"
+}

@@ -1,0 +1,234 @@
+{
+  "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+  "IsActive": true,
+  "Name": "Audio showcase menu",
+  "Children": [
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "Listener",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "1e9919ae-f343-569f-8715-8aa2baab3e39",
+          "CullingMask": 4294967295,
+          "UsePerspective": true,
+          "NearPlane": 0.01,
+          "FarPlane": 100,
+          "FieldOfViewDegrees": 60,
+          "Frustum": 40,
+          "BackgroundColor": {
+            "R": 0.12,
+            "G": 0.14,
+            "B": 0.2,
+            "A": 1
+          },
+          "AspectMode": 0,
+          "FixedAspectRatio": 1.7777778,
+          "Priority": 0,
+          "IsActive": true,
+          "Id": "87434bef-ac12-4ec8-81aa-4f69126d4f71"
+        },
+        {
+          "__TypeId": "66b53ae9-f948-4ff0-8859-bb024611e46d",
+          "IsActive": true,
+          "Id": "17c1b831-b137-4c8d-8540-d54f6cdb60f3"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "8a998491-0541-4364-81b8-9783ac1421f9"
+    },
+    {
+      "__TypeId": "f7cc675d-54f2-510b-8e5d-807281e3012d",
+      "IsActive": true,
+      "Name": "HUD",
+      "Children": [],
+      "Components": [
+        {
+          "__TypeId": "da4b14b7-dfd9-51a0-afd0-83f1a4c982ac",
+          "Document": {
+            "AssetId": "ffe3dbb2-54f2-4c1a-815e-50772db8a0bf"
+          },
+          "DataAssets": [
+            {
+              "$ref": "4bcc9294-5400-4f7f-b76a-a3b28842b9ee"
+            },
+            {
+              "$ref": "84b24252-8f6d-4c50-af33-3d0bf0a50b84"
+            },
+            {
+              "$ref": "2e97e549-be26-499a-81c9-178c903abeac"
+            },
+            {
+              "$ref": "bb7dd599-bc26-50a6-a4d8-0e1bc29888c3"
+            },
+            {
+              "$ref": "70000000-0000-4000-8000-000000000004"
+            }
+          ],
+          "StyleSheets": [],
+          "Mode": 0,
+          "SortOrder": 0,
+          "ScaleMode": 1,
+          "ReferenceResolution": {
+            "X": 780,
+            "Y": 440
+          },
+          "PanelSize": {
+            "X": 1024,
+            "Y": 640
+          },
+          "IsActive": true,
+          "Id": "a31a0e81-c4ee-4de9-9226-6020876a1031"
+        }
+      ],
+      "Transform": {
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 1
+        },
+        "Scale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        }
+      },
+      "Tags": [
+        "Untagged"
+      ],
+      "PhysicsLayer": 0,
+      "RenderLayer": 0,
+      "Id": "07a8e443-39b5-4e93-bd74-cd18b1af77ca"
+    }
+  ],
+  "Components": [
+    {
+      "__TypeId": "a7d82d52-9067-4d3c-83ef-a0e5ed08615b",
+      "Volume": {
+        "$ref": "7c0e1c62-6dcc-449c-af32-7ae87ac4c50f"
+      },
+      "Muted": {
+        "$ref": "def2959f-6ce7-443a-8497-7621eac6f2ba"
+      },
+      "IsActive": true,
+      "Id": "b7af3efd-1454-4a3d-bf30-06a781ac21d9"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "4bcc9294-5400-4f7f-b76a-a3b28842b9ee"
+      },
+      "Scene": {
+        "AssetId": "dfda83f2-9427-4958-b827-ded0bbe394d8"
+      },
+      "IsActive": true,
+      "Id": "371cf4eb-e6af-4242-b79e-451c9ef0053a"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "84b24252-8f6d-4c50-af33-3d0bf0a50b84"
+      },
+      "Scene": {
+        "AssetId": "0f2879cf-d80b-4313-bda8-46a27fd1b5c6"
+      },
+      "IsActive": true,
+      "Id": "220a4db0-a45a-4be2-9699-da43d9daa372"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "2e97e549-be26-499a-81c9-178c903abeac"
+      },
+      "Scene": {
+        "AssetId": "47c99a99-04c1-424f-bf8e-784606e875e5"
+      },
+      "IsActive": true,
+      "Id": "00e88c4b-84cd-4367-9739-7afdc8312919"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "bb7dd599-bc26-50a6-a4d8-0e1bc29888c3"
+      },
+      "Scene": {
+        "AssetId": "c230d3d6-2931-5ce0-b604-c5dbded63256"
+      },
+      "IsActive": true,
+      "Id": "45cbb127-d690-597f-8d2b-79b55870393a"
+    },
+    {
+      "__TypeId": "6ca80933-8f7d-4bba-b5eb-02b3fa63b4fb",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "Scene": {
+        "AssetId": "70000000-0000-4000-8000-000000000001"
+      },
+      "IsActive": true,
+      "Id": "8f791428-e465-4999-869d-1bb85a584eb3"
+    },
+    {
+      "__TypeId": "3f9a7d12-8e64-4c05-b2c1-5a0e7f316d48",
+      "Trigger": {
+        "$ref": "70000000-0000-4000-8000-000000000004"
+      },
+      "IsActive": true,
+      "Id": "3f8c1f95-eff4-40b1-8c8c-87d4fdbdebf6",
+      "ShowBack": false
+    }
+  ],
+  "Transform": {
+    "Position": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Orientation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 1
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Tags": [
+    "Untagged"
+  ],
+  "PhysicsLayer": 0,
+  "RenderLayer": 0,
+  "Id": "1d41b33f-a873-4c47-858a-ab17bb83caf4"
+}

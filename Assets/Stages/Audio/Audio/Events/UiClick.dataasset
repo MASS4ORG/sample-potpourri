@@ -1,0 +1,20 @@
+{
+  "__TypeId": "bbf8bc67-0f8c-4613-a263-5f1ee7cb28f6",
+  "EventName": "ui.click",
+  "Clips": [
+    {
+      "AssetId": "ae377182-4264-406b-bf18-fd73ce5abe48"
+    }
+  ],
+  "Volume": 0.5,
+  "Pitch": 1,
+  "Loop": false,
+  "Spatial": false,
+  "MinDistance": 1,
+  "MaxDistance": 100,
+  "Priority": 160,
+  "Stream": false,
+  "SchemaVersion": 1,
+  "Id": "4a1a7cb2-f0d0-4067-8bc2-0fd92bdff9f0",
+  "Bus": "UI"
+}

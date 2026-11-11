@@ -1,0 +1,47 @@
+# Builds the Android demo in the Turian CLI image, mirroring the GitLab pipeline.
+name: Android
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  android:
+    runs-on: ubuntu-26.04
+    container:
+      image: ghcr.io/mass4org/turian-cli:latest
+    env:
+      GAYA_BRICKS: ${{ github.workspace }}/.gaya-bricks
+      ANDROID_HOME: ${{ github.workspace }}/.android-sdk
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/cache@v5
+        with:
+          path: |
+            .gaya-bricks
+            .android-sdk
+          key: android-${{ hashFiles('Bricks/packages-lock.json') }}
+
+      - name: Install the Android toolchain
+        run: bash /app/ci/android-toolchain.sh
+
+      - name: Export the APK
+        run: |
+          turian-cli brick restore --locked --project .
+          turian-cli export . --profile Android --configuration Debug
+
+      - name: Verify the APK
+        run: |
+          apk=$(find Output -name '*-Signed.apk' | head -n1)
+          bash /app/ci/android-verify.sh "$apk" org.mass4.turian.potpourri
+          cp "$apk" potpourri.apk
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: potpourri-apk
+          path: potpourri.apk
+          retention-days: 7

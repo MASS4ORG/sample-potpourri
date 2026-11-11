@@ -1,0 +1,21 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 40; gap: 10">
+    <Label class="title" text="Turian Potpourri" />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="audio" text="Audio" click="asset://b76c2f12-500d-56c7-a875-e7a3ea11f411" />
+        <Button class="wide" style="height: 100%" name="physics" text="Physics" click="asset://dd74be19-0c4b-5698-afbf-6e61ff221cda" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="ui" text="Interface" click="asset://e5fa5e36-45a9-59ed-b9b7-6616596ede2d" />
+        <Button class="wide" style="height: 100%" name="save" text="Saves" click="asset://b01c3cd0-c9b6-5423-9732-e97cfc7beafc" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="instancing" text="Instancing" click="asset://241f4add-cc30-5156-aba6-aa78101d963a" />
+        <Button class="wide" style="height: 100%" name="bistro" text="Bistro" click="asset://4cc8a817-878d-5a32-8091-5c81320b6a5a" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="exit" text="Exit" click="asset://70000000-0000-4000-8000-000000000005" />
+      </VisualElement>
+  </VisualElement>
+</UI>

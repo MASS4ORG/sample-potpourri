@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  World-space UI: the screen of an in-scene 3D computer.
+  Rendered by a UiDocumentComponent { RenderMode = WorldSpace } on the monitor node,
+  made interactive by a sibling UiRaycasterComponent. Code-behind: DiagnosticsController.
+-->
+<UI xmlns="https://atomicmassa.dev/ui" controller="Usercode.DiagnosticsController">
+
+  <Style src="Assets/Stages/Ui/UI/terminal.pss" />
+
+  <VisualElement name="root" class="crt">
+    <VisualElement class="titlebar">
+      <Label class="title" binding-text="{Machine.Name}" />
+      <Label class="clock" binding-text="{Machine.Clock}" />
+    </VisualElement>
+
+    <VisualElement class="body">
+      <!-- live meters -->
+      <VisualElement class="meters">
+        <VisualElement class="meter">
+          <Label class="meter-label" text="CPU" />
+          <VisualElement class="bar"><VisualElement class="fill cpu" style="width: {Machine.CpuPercent}%" /></VisualElement>
+          <Label class="meter-value" binding-text="{Machine.CpuText}" />
+        </VisualElement>
+        <VisualElement class="meter">
+          <Label class="meter-label" text="RAM" />
+          <VisualElement class="bar"><VisualElement class="fill ram" style="width: {Machine.RamPercent}%" /></VisualElement>
+          <Label class="meter-value" binding-text="{Machine.RamText}" />
+        </VisualElement>
+      </VisualElement>
+
+      <!-- switchable readout -->
+      <Tabs name="readout" selected="{Machine.Tab}" value-changed="OnTab">
+        <Tab header="Processes">
+          <ScrollView class="proc-list">
+            <Repeat items="{Machine.Processes}">
+              <VisualElement class="proc-row">
+                <Label class="proc-pid"  binding-text="{item.Pid}" />
+                <Label class="proc-name" binding-text="{item.Name}" />
+                <Label class="proc-cpu"  binding-text="{item.Cpu | percent}" />
+              </VisualElement>
+            </Repeat>
+          </ScrollView>
+        </Tab>
+        <Tab header="Network">
+          <VisualElement class="net">
+            <Label binding-text="{Machine.NetDown}" />
+            <Label binding-text="{Machine.NetUp}" />
+          </VisualElement>
+        </Tab>
+        <Tab header="Log">
+          <ScrollView class="log">
+            <Repeat items="{Machine.Log}"><Label class="log-line" binding-text="{item}" /></Repeat>
+          </ScrollView>
+        </Tab>
+      </Tabs>
+    </VisualElement>
+
+    <VisualElement class="footer">
+      <ImageButton name="btnScan" class="term-btn"
+                   image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                   image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                   image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                   nine-slice="12,12,12,12" text="Scan" click="OnScan" />
+      <ImageButton name="btnReboot" class="term-btn danger"
+                   image-normal="Assets/Stages/Ui/Textures/UI/button_9slice_normal.png"
+                   image-hover="Assets/Stages/Ui/Textures/UI/button_9slice_hover.png"
+                   image-pressed="Assets/Stages/Ui/Textures/UI/button_9slice_pressed.png"
+                   nine-slice="12,12,12,12" text="Reboot" click="OnReboot" />
+    </VisualElement>
+  </VisualElement>
+</UI>

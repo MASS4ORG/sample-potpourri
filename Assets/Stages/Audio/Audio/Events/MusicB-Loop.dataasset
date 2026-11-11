@@ -1,0 +1,20 @@
+{
+  "__TypeId": "bbf8bc67-0f8c-4613-a263-5f1ee7cb28f6",
+  "EventName": "music.b.loop",
+  "Clips": [
+    {
+      "AssetId": "2e85a224-3ce2-4a80-ac91-2f54db1fc5ea"
+    }
+  ],
+  "Volume": 0.8,
+  "Pitch": 1,
+  "Loop": true,
+  "Spatial": false,
+  "MinDistance": 1,
+  "MaxDistance": 100,
+  "Priority": 200,
+  "Stream": true,
+  "SchemaVersion": 1,
+  "Id": "8b767158-08d2-4d91-aa31-7bdceb82a7ff",
+  "Bus": "Music"
+}

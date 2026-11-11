@@ -1,0 +1,14 @@
+{
+  "__TypeId": "871cd819-cb92-4f78-a849-4a66309b3de6",
+  "Name": "Android",
+  "Platform": "android",
+  "Target": 0,
+  "RuntimeIdentifier": "android-arm64",
+  "Configuration": 0,
+  "Development": true,
+  "NativeAot": false,
+  "ScriptingDefines": null,
+  "Settings": [],
+  "SchemaVersion": 1,
+  "Id": "c47c2e8c-022d-42cf-bdab-bdbca29cd709"
+}

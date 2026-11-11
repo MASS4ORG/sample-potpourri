@@ -1,0 +1,19 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 40; gap: 10">
+    <Label class="title" text="Music" />
+    <Label text="Streamed from storage while it plays." />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="mp3" text="Play MP3" click="asset://489e5c64-5f5b-49cc-9aa2-26901ba611f2" />
+        <Button class="wide" style="height: 100%" name="flac" text="Play FLAC" click="asset://93dc64bb-2211-4504-9ab4-529316acd311" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="pause" text="Pause" click="asset://43b9d52b-86df-40e7-8a23-18a1d235318a" />
+        <Button class="wide" style="height: 100%" name="stop" text="Stop" click="asset://d8e539ec-e317-4864-911a-feb89fdc834f" />
+      </VisualElement>
+    <Toggle name="loop" label="Loop the next Play" value="{asset://5c6fe191-88dc-4bd7-b150-92dc0fb1bf97, mode=TwoWay}" />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="back" text="Back" click="asset://46b8f5c5-de54-4538-a480-4896927e23f9" />
+      </VisualElement>
+  </VisualElement>
+</UI>

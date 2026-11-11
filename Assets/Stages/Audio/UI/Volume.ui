@@ -1,0 +1,16 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 40; gap: 10">
+    <Label class="title" text="Volume" />
+    <VisualElement class="wide" style="flex-direction: row; gap: 8; height: 30">
+        <VisualElement style="width: 72"><Label text="Master" /></VisualElement>
+        <Slider class="wide" name="master" min="0" max="1" step="0.01" height="30" value="{asset://7c0e1c62-6dcc-449c-af32-7ae87ac4c50f, mode=TwoWay}" />
+        <VisualElement style="width: 52"><Label text="{asset://7c0e1c62-6dcc-449c-af32-7ae87ac4c50f | percent}" /></VisualElement>
+      </VisualElement>
+    <Toggle name="mute" label="Mute" value="{asset://def2959f-6ce7-443a-8497-7621eac6f2ba, mode=TwoWay}" />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 64">
+        <Button class="wide" style="height: 100%" name="tick" text="Play tick" click="asset://4a708d1e-902d-4932-9733-f40e33f54244" />
+        <Button class="wide" style="height: 100%" name="back" text="Back" click="asset://46b8f5c5-de54-4538-a480-4896927e23f9" />
+      </VisualElement>
+  </VisualElement>
+</UI>

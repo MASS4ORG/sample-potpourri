@@ -1,0 +1,17 @@
+<UI xmlns="https://turian.mass4.org/ui">
+  <Style src="Theme.pss" />
+  <VisualElement class="screen" style="flex-direction: column; padding: 40; gap: 10">
+    <Label class="title" text="Audio" />
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="music" text="Music" click="asset://4bcc9294-5400-4f7f-b76a-a3b28842b9ee" />
+        <Button class="wide" style="height: 100%" name="spatial" text="Spatial" click="asset://84b24252-8f6d-4c50-af33-3d0bf0a50b84" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="volume" text="Volume" click="asset://2e97e549-be26-499a-81c9-178c903abeac" />
+        <Button class="wide" style="height: 100%" name="mixer" text="Mixer" click="asset://bb7dd599-bc26-50a6-a4d8-0e1bc29888c3" />
+      </VisualElement>
+    <VisualElement class="fill" style="flex-direction: row; gap: 10; max-height: 4000">
+        <Button class="wide" style="height: 100%" name="menu" text="Menu" click="asset://70000000-0000-4000-8000-000000000004" />
+      </VisualElement>
+  </VisualElement>
+</UI>

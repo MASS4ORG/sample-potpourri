@@ -1,0 +1,13 @@
+{
+  "__TypeId": "f12b8bbf-74b4-5af6-95a3-535c4fa6c16c",
+  "IsSrgb": false,
+  "GenerateMips": true,
+  "FlipGreenChannel": false,
+  "ImportSettings": {
+    "MaxResolution": 1024,
+    "PerTarget": {}
+  },
+  "RelativePath": "Assets/Stages/Bistro/Textures/Foliage_Linde_Tree_Large_Orange_Leaves_Specular.dds",
+  "Labels": [],
+  "Id": "2ae8e57c-919e-4b71-9809-dc1bb1f67ce1"
+}
